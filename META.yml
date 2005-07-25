@@ -1,0 +1,19 @@
+name: JSAN-Librarian
+version: 0.01
+abstract: JavaScript::Librarian adapter for installed JSAN libs
+author: Adam Kennedy <cpan@ali.as>
+license: perl
+distribution_type: module
+build_requires:
+  Test::More: 0.47
+requires:
+  perl: 5.005
+  File::Spec: 0.80
+  File::Path: 1.06
+  Config::Tiny: 2.00
+  File::Find::Rule: 0.20
+  JSAN::Parse::FileDeps: 0.02
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.36
