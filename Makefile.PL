@@ -11,6 +11,8 @@ requires       ( 'File::Path'            => '1.06'  );
 requires       ( 'Config::Tiny'          => '2.00'  );
 requires       ( 'File::Find::Rule'      => '0.20'  );
 requires       ( 'JSAN::Parse::FileDeps' => '0.02'  );
+requires       ( 'JavaScript::Librarian' => '0.03'  );
+build_requires ( 'URI'                   => '1.33'  );
 build_requires ( 'Test::More'            => '0.47'  );
 
 auto_install();

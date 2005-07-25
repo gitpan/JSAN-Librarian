@@ -26,11 +26,13 @@ use File::Path               ();
 use File::Basename           ();
 use File::Find::Rule         ();
 use JSAN::Parse::FileDeps    ();
+use JSAN::Librarian::Book    ();
+use JSAN::Librarian::Library ();
 use constant 'FFR' => 'File::Find::Rule';
 
 use vars qw{$VERSION $VERBOSE};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 	$VERBOSE ||= 0;
 }
 
